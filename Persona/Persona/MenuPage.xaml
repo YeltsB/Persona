@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Persona.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            
+            <Editor x:Name="txtNombres" Placeholder="Ingrese su nombre"></Editor>
+            <Editor x:Name="txtApellidos" Placeholder="Ingrese su apellido"></Editor>
+            <Entry x:Name="numEdad" Keyboard="Numeric" Placeholder="Ingrese su edad"></Entry>
+            <Editor x:Name="txtCorreo" Placeholder="Ingrese su correo"></Editor>
+            
+            <Button x:Name="btnEnviar" Text="Enviar" Clicked="btnEnviar_Clicked"></Button>
+                
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

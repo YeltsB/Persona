@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Persona.SegundaPagina">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Grid.Column="1" Grid.Row="1">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span   FontSize="20" Text="Nombre: "/>
+                        <Span   FontSize="20" FontAttributes="Bold" Text="{Binding Nombre}"/>
+                        <Span   FontSize="20" Text=" Apellido: "/>
+                        <Span   FontSize="20" FontAttributes="Bold" Text="{Binding Apellido}"/>
+                        <Span   FontSize="20" Text=" Edad: "/>
+                        <Span   FontSize="20" FontAttributes="Bold" Text="{Binding Edad}"/>
+                        <Span   FontSize="20" Text=" Correo: "/>
+                        <Span   FontSize="20" FontAttributes="Bold" Text="{Binding Correo}"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
